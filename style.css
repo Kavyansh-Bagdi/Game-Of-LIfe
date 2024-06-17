@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+canvas{
+    position: absolute;
+    background: white;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    border: 5px solid black;
+}
