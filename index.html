@@ -3,11 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canvas</title>
+    <title>Game Of Life</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <canvas id="canvas" height="500px" width="500px"></canvas>
+    <div class="body">
+        <div class="title">
+            Game Of Life
+        </div>
+        <div class="canvasbox">
+            <canvas id="canvas" height="500px" width="500px"></canvas>
+        </div>
+        <div class="button">
+            <button id="play_pause">Play</button>
+            <button id="clear">Clear</button>
+            <button id="next">Next Generation</button>
+            <button id="generation">Generation : 1</button>
+            <button id="population">Population : 0</button>
+        </div>
+    </div>
 </body>
 </html>

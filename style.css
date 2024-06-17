@@ -2,12 +2,44 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
-
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+}
 canvas{
-    position: absolute;
-    background: white;
-    top: calc(50% - 250px);
-    left: calc(50% - 250px);
-    border: 5px solid black;
+    margin-inline: auto;
+    border: 1px solid black;
+}
+.canvasbox{
+    padding: 1em;
+}
+canvas:hover{
+    cursor:crosshair;
+}
+.body{
+    margin: 1em;
+}
+.body div{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    display: inline-block;
+    margin-inline: 0.3em;
+    padding-inline: 1em;
+    padding-block: 0.3em;
+}
+button:hover{
+    cursor: pointer;
 }
